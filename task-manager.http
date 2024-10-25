@@ -1,0 +1,13 @@
+### Get all tasks
+
+GET http://localhost:3000/api/v1/tasks
+Accept: application/json
+
+### Create a new task
+POST http://localhost:3000/api/v1/tasks
+Content-Type: application/json
+
+{
+    "name": "New Task",
+    "completed": false
+}
